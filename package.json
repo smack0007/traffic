@@ -1,0 +1,14 @@
+{
+  "name": "traffic",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "bun ./build.ts",
+    "start": "electron ./build"
+  },
+  "devDependencies": {
+    "@types/bun": "1.1.1",
+    "electron": "30.0.3",
+    "esbuild": "^0.21.1"
+  }
+}

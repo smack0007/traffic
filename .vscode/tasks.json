@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "build"],
+      "problemMatcher": ["$tsc"],
+      "label": "Build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "start"],
+      "problemMatcher": ["$tsc"],
+      "label": "Start",
+      "group": {
+        "kind": "none",
+        "isDefault": false
+      }
+    }
+  ]
+}
